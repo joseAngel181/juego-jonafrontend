@@ -1,4 +1,4 @@
-# Juego de Granja 2D (2D Farming Game)
+# Starshit Valley
 > Implementación de un juego de supervivencia inspirado en Stardew Valley, en el que el jugador se convierte en un náufrago en una isla y tiene que proveerse de los medios para sobrevivir, un juego desarrollado utilizando Unity.
  
 ## Tabla de Contenidos
