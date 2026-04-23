@@ -71,7 +71,7 @@ Durante el desarrollo, superamos problemas críticos de concurrencia:
 
 ---
 
-## 👨‍💻 Instrucciones de Ejecución (Para Evaluación)
+## 👨‍💻 Instrucciones de Ejecución
 
 A continuación, se detallan los pasos para levantar ambos entornos desde cero.
 
