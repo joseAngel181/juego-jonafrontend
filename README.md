@@ -71,12 +71,20 @@ Durante el desarrollo, superamos problemas críticos de concurrencia:
 
 ---
 
-## 👨‍💻 Para Desarrolladores y Evaluadores: Compilación Manual
+## 👨‍💻 Instrucciones de Ejecución (Para Evaluación)
 
-Si tienes el código fuente del proyecto y deseas compilar y ejecutar todo manualmente desde cero, sigue estos pasos:
+A continuación, se detallan los pasos para levantar ambos entornos desde cero.
 
-### 1. Levantar el Servidor Local (Backend en Rust)
-Asegúrate de tener [Rust y Cargo](https://www.rust-lang.org/tools/install) instalados en tu sistema.
+### Prerrequisitos
+Para ejecutar el proyecto desde el código fuente, necesitas tener instalados los siguientes entornos:
+* **Para el Backend:** Instalar Rust y su gestor de paquetes Cargo. [Descargar Rust aquí](https://www.rust-lang.org/tools/install).
+* **Para el Frontend:** Instalar Unity Hub y el editor de Unity (Versión 2019.3 o superior) con soporte para .NET. [Descargar Unity aquí](https://unity.com/download).
+
+### 1. Ejecutar el Backend (Servidor Rust)
+El servidor debe levantarse primero para que el juego pueda conectarse. Abre tu terminal de comandos (CMD, PowerShell o Bash):
 ```bash
-cd Server
+# 1. Navega a la carpeta del servidor
+cd backend
+
+# 2. Compila y levanta el servidor localmente
 cargo run
