@@ -69,10 +69,12 @@ Durante el desarrollo, superamos problemas críticos de concurrencia:
 2. **Tolerancia a Fallos (Heartbeats):** Se blindó el servidor de Rust con un patrón `match` exhaustivo para ignorar conexiones silenciosas y latidos de control (`Ping/Pong`), evitando que los hilos colapsaran.
 3. **Manejo de Embotellamientos:** Se escaló el buffer del *Broadcast Channel* a 1024 y se manejó el error `RecvError::Lagged` para descartar paquetes viejos sin desconectar a los jugadores bajo alta latencia.
 
-## 👨‍💻 Para Desarrolladores: Levantar el Servidor Local
+## 👨‍💻 Para Desarrolladores y Evaluadores: Compilación y Ejecución desde el Código Fuente
 
-Si descargaste el código fuente y quieres correr tu propio servidor:
-Asegúrate de tener [Rust y Cargo](https://www.rust-lang.org/tools/install) instalados.
+Si tienes el código fuente del proyecto y deseas compilar y ejecutar todo manualmente, sigue estos pasos:
+
+### 1. Levantar el Servidor Local (Rust)
+Asegúrate de tener [Rust y Cargo](https://www.rust-lang.org/tools/install) instalados en tu sistema.
 ```bash
 cd Server
 cargo run
